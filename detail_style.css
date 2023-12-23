@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 47%, 68%);
+}
+
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    
+}
+
+#details {
+    margin-top: -100px;
+}
+
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.btn {
+    background-color:hwb(210 6% 33%); 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: hsl(212, 47%, 68%);
+    display: flex;
+}
+
+.container border mt-3 bg-light{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form input , textarea {
+    border: 0;
+    padding: 20px;
+    outline: none;
+    margin: 10px 0;
+    font-size: 16px;
+    background: #f5f5ff;
+}
+form button{
+    background: hwb(207 73% 22%);
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 100px;
+} 
